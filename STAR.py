@@ -172,7 +172,7 @@ def speak_command():
                     "hello how you doing try other amazing features of star voice assistant")
 
             elif 'teacher' in query:
-                speak('suniti mam is your wonderful dt teacher')
+                speak('kirat mam is your social networks teacher')
 
             elif 'shut up' in query:
                 speak('okay if thats what you want')
@@ -206,8 +206,8 @@ def cuims():
 
 
 def bb():
-    speak("ok sir i will open BB")
-    webbrowser.open("https://cuchd.blackboard.com/ultra/course")
+    speak("ok sir i will open lms")
+    webbrowser.open("https://https://lms.cuchd.in/")
 
 
 def youtube():
@@ -534,7 +534,7 @@ b1_label = Button(f2, text="CUIMS", bg="#9940bf", fg="white",
                   font="poppins 19 bold", relief="solid", command=cuims)
 b1_label.pack(anchor="ne", side="left", fill="x")
 
-b2_label = Button(f2, text="BLACKBOARD", bg="#9940bf", fg="white",
+b2_label = Button(f2, text="LMS", bg="#9940bf", fg="white",
                   font="poppins 19 bold", relief="solid", command=bb)
 b2_label.pack(anchor="ne", side="left", fill="x")
 
